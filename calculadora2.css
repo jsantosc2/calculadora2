@@ -1,0 +1,78 @@
+body{
+    background-color: white;
+    display: flex;
+    justify-content:space-around;
+    flex-direction: column;
+    align-items: center;
+margin-top: 250px;
+
+}
+#todo{
+    border-radius: 40px 40px 40px 40px;
+    display: flex;
+    justify-content:center;
+align-items:center;
+    flex-direction: column;
+    border:5px solid black ;
+    background-color: burlywood;
+    width: 800px;
+   padding: 50px;
+   box-shadow:  inset 0 -3em 3em rgba(0,0,0,0.1),
+   0 0  0 2px rgb(255,255,255),
+   0.3em 0.3em 1em rgba(0,0,0,0.3);
+   flex-wrap: wrap;
+}
+#patalla {
+    margin: 15px;
+    display: flex;
+    justify-content:center;
+
+}
+#xxx{
+    width: 500px;
+    height: 50px;
+    border:5px solid black ;
+    text-align: center;
+
+}
+#numOp{
+background-color: lightgreen;
+    border:5px solid black ;
+   
+    display: flex;
+    flex-direction:row ;
+    justify-items: center;
+    justify-content: center;
+    width: 700px;
+    height: 350px;
+
+}
+#numeros{
+    margin: 5px;
+width: 350px;
+
+    display: flex;
+    flex-direction:row ;
+    flex-wrap: wrap;
+}
+#numeros button{
+    margin: 5px;
+    width: 100px;
+    height: 100px;
+    border-radius: 10%
+    
+}
+#op{
+    margin: 10px;
+    width: 220px;
+
+    display: flex;
+    flex-direction:row ;
+    flex-wrap: wrap;
+}
+#op button{
+    margin: 5px;
+    width: 100px;
+    height: 100px;
+    border-radius: 10%
+}
